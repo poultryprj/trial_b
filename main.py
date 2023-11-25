@@ -1,6 +1,7 @@
 from chatterbot import ChatBot
 from conversation_set_1 import train_chatbot as train_set_1
 from conversation_set_2 import train_chatbot as train_set_2
+# from conversation_set_3 import train_chatbot as train_set_3
 
 # Create a ChatBot instance
 chatbot = ChatBot('Training Example')
@@ -10,6 +11,9 @@ train_set_1(chatbot)
 
 # Train using conversation set 2
 train_set_2(chatbot)
+
+# Train using conversation set 3
+# train_set_3(chatbot)
 
 # Example interaction
 while True:
